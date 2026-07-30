@@ -1,0 +1,63 @@
+# Dependencies
+backend/node_modules/
+frontend/node_modules/
+/.pnpm-store
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Media uploads and output processing (Video Editing runtime data)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/output/*
+!backend/output/.gitkeep
+uploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+temp/
+tmp/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Expo & React Native / Frontend build artifacts
+frontend/.expo/
+.expo/
+web-build/
+dist/
+build/
+.next/
+out/
+
+# IDE / Editor & Tooling
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+.claude/
+
+# Operating System & System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
